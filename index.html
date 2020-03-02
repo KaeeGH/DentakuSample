@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>電卓</title>
+</head>
+<body>
+	<h1 align="center" id="A">0</h1>
+	<h2 align="left" id="Operand">記号: </h2>
+    <div>
+	    <div>
+		    <input class="num" type="button" id="7" value="7">
+			<input class="num" type="button" id="8" value="8">
+			<input class="num" type="button" id="9" value="9">
+			<input type="button" id="add" value="+">
+		</div>
+
+		<div>
+			<input class="num" type="button" id="4" value="4">
+			<input class="num" type="button" id="5" value="5">
+			<input class="num" type="button" id="6" value="6">
+			<input type="button" id="sub" value="-">
+		</div>
+
+		<div>
+			<input class="num" type="button" id="1" value="1">
+			<input class="num" type="button" id="2" value="2">
+			<input class="num" type="button" id="3" value="3">
+			<input type="button" id="mul" value="X">
+		</div>
+
+		<div>
+			<input type="button" id="C" value="C">
+			<input class="num" type="button" id="0" value="0">
+			<input type="button" id="equal" value="=">
+			<input type="button" id="div" value="÷">
+		</div>
+		<input type="button" id="dot" value=".">
+	</div>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

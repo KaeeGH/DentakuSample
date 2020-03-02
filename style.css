@@ -1,0 +1,17 @@
+body {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+div {
+    margin: auto;
+    clear: both;
+}
+
+input {
+	margin: auto;
+    font-size: 4em;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
